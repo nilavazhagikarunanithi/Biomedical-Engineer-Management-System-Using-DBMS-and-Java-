@@ -1,0 +1,16 @@
+package models;
+
+public class Patient {
+    public int patientId;
+    public String name;
+    public int age;
+    public String gender;
+    public String diagnosis;
+
+    public Patient(String name, int age, String gender, String diagnosis) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.diagnosis = diagnosis;
+    }
+}
